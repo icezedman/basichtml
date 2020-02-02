@@ -1,0 +1,70 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="Generator" content="EditPlus®">
+            <meta name="Author" content="">
+            <meta name="Keywords" content="">
+            <meta name="Description" content="">
+            <Title>การสร้างฟอร์มรับข้อมูล</Title>
+            <link href="style/mystyle.css" rel ="stylesheet">
+            <body>
+                <form>
+                    <!--
+                     <label>ชื่อลูกค้า</label> 
+                     <input type="text" placeholder=""/>
+                     <label>นามสกุล</label> 
+                     <input type="text" placeholder=""/><p>
+                     <label>เบอร์โทรศัพท์มือถือ</label> 
+                     <input type="number" placeholder=""/>
+                     -->
+                     <table border =1 style="font-size:14;" class="txtLable" >
+                        <tr>
+                            <td>คำนำหน้าชื่อ</td>
+                            <td>
+
+                                <select>
+                                    <option>--คำนำหน้าชื่อ--</option>
+                                    <option value="1">นาย</option>
+                                    <option value="2">นาง</option>
+                                    <option value="3">นางสาว</option>
+                                    <option value="4">เด็กชาย</option>
+                                    <option value="5">เด็กหญิง</option>
+                                </select>
+                            </td>
+                            <td>เลือกเพศ</td>
+                            <td>
+                                <input type="radio" name="gender" value="1">ชาย<br>
+                                <input type="radio" name="gender" value="2">หญิง
+                            </td>
+                        </tr>
+                       <tr>
+                           <td>ชื่อ :</td>
+                           <td><input type="text" placeholder=""/></td>
+                           <td>นามสกุล :</td>
+                           <td><input type="text" placeholder=""/></td>
+                       </tr>
+                       <tr>
+                        <td>เบอร์โทรศัพท์มือถือ :</td>
+                        <td><input type="number" placeholder=""/></td>
+                       </tr>
+                       <tr>
+                        <td>ที่อยู่ :</td>
+                        <td><textarea rows="3"></textarea></td>
+                       </tr>
+                       <tr>
+                        <td colspan="3" align="center">
+                        <button>บันทึกข้อมูล</button>
+                        <button>ล้างข้อมูล</button>
+                        </td>
+                        <td colspan="1" align="center">
+                            <button><a href="index.html">--ย้อนกลับ--</a></button>
+                        </td>
+                        
+                       </tr>
+                    
+                     </table>
+                </form>
+            </body>
+        </head>
+    </html>
